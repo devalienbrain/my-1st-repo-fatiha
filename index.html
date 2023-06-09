@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<meta charset=utf-8 />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
+    <title> Fatiha Sultana </title>
+    
+    <link rel="stylesheet" href="style.css">
+    </head>
+  
+  <body>
+    <div class="header-style">
+      <div>
+          <img class="logo-image-style" src="logo.jpg" alt="">
+      </div>
+      <div class="header-title">
+        Fatiha's School
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <h1>
+          Learning is Fun
+        </h1>
+
+        <p>Hello! I'm Fatiha </p>
+        <p>I want to make learning easy and funny for everyone. </p>
+
+        <button class="button-style" onclick="myWorld()"> 
+          Learn with Me
+        </button>
+
+      </div>
+    </div>
+
+    <!--
+    <nav>
+      <a href="index.html">My Home</a>
+      <a href="about.html">About Me</a>
+      <a href="contact.html">Contact Me</a>
+    </nav>
+    -->
+    <script>
+      function myWorld(){
+        document.body.innerHTML = null;
+        document.body.style.backgroundColor = "red";
+        const element = document.createElement('div');
+        element.innerText = "Please wait! Sory for the inconvinience! This website is now under construction. For now to stay connected please go, visit and subscribe my youtube channel learning videos. Thank you for your patience.";
+        document.body.appendChild(element);
+        
+      }
+    </script>
+  </body>
+   
